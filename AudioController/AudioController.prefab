@@ -1,0 +1,376 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1922746405045386124
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1922746405045386127}
+  - component: {fileID: 1922746405045386126}
+  m_Layer: 0
+  m_Name: AudioController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1922746405045386127
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922746405045386124}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1922746405045386126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922746405045386124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f6c01aabb366c419726deb00cb088a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sonidos:
+  - clip: {fileID: 8300000, guid: c2f26c1718905f14e85d8e24073415d8, type: 3}
+    nombre: Menu_Intro
+    musica: 1
+    fadein: 1
+    fadeout: 1
+    fade_vel: 1
+    volumen: 1
+    volumen_por_defecto: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 13f38d48e81b1404387dadd8277ab8ca, type: 3}
+    nombre: De_Menu_Al_Juego
+    musica: 1
+    fadein: 1
+    fadeout: 1
+    fade_vel: 1
+    volumen: 1
+    volumen_por_defecto: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 660ee81e512111845992012b5fbd4ca9, type: 3}
+    nombre: Nivel_1
+    musica: 1
+    fadein: 1
+    fadeout: 1
+    fade_vel: 1
+    volumen: 1
+    volumen_por_defecto: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 2679c11ca79e3b54a8ef844da52f180e, type: 3}
+    nombre: Nivel_2
+    musica: 1
+    fadein: 1
+    fadeout: 1
+    fade_vel: 1
+    volumen: 1
+    volumen_por_defecto: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: f2d80765b9c1cb24f8f28cb104377735, type: 3}
+    nombre: Avanzar_Nivel
+    musica: 0
+    fadein: 0
+    fadeout: 0
+    fade_vel: 0
+    volumen: 0.3
+    volumen_por_defecto: 0.3
+    pitch: 0.77
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: c27fa15163223414fac2f45462fd4084, type: 3}
+    nombre: Game_Over
+    musica: 0
+    fadein: 0
+    fadeout: 0
+    fade_vel: 0
+    volumen: 1
+    volumen_por_defecto: 1
+    pitch: 1.4
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 67081cd6276ef6c4fa5d9f7621e8539a, type: 3}
+    nombre: Musica_De_Peligro
+    musica: 0
+    fadein: 0
+    fadeout: 0
+    fade_vel: 0
+    volumen: 1
+    volumen_por_defecto: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: bab50ed4d126e8647823797090ab5285, type: 3}
+    nombre: Nivel_3
+    musica: 1
+    fadein: 1
+    fadeout: 1
+    fade_vel: 1
+    volumen: 1
+    volumen_por_defecto: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: bcdfd87f8b288194b8265b237da3ec25, type: 3}
+    nombre: Hoyo_Negro_Intro
+    musica: 0
+    fadein: 0
+    fadeout: 0
+    fade_vel: 1
+    volumen: 0.9
+    volumen_por_defecto: 0.9
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 8b639b9dcc62b7644a2c38edf7c447ef, type: 3}
+    nombre: the_hole_voice
+    musica: 0
+    fadein: 0
+    fadeout: 0
+    fade_vel: 1
+    volumen: 0.95
+    volumen_por_defecto: 0.95
+    pitch: 0.6
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: c27fa15163223414fac2f45462fd4084, type: 3}
+    nombre: game_over
+    musica: 0
+    fadein: 0
+    fadeout: 0
+    fade_vel: 1
+    volumen: 0.4
+    volumen_por_defecto: 0.4
+    pitch: 1.65
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: c766255aa18d8ab49ab6f5f889833483, type: 3}
+    nombre: blinder_detect
+    musica: 0
+    fadein: 1
+    fadeout: 1
+    fade_vel: 1
+    volumen: 0.15
+    volumen_por_defecto: 0.15
+    pitch: 0.8
+    loop: 1
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 7f594141c592f19468b0111b8f3f4cd4, type: 3}
+    nombre: morir
+    musica: 0
+    fadein: 0
+    fadeout: 0
+    fade_vel: 1
+    volumen: 0.2
+    volumen_por_defecto: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 7f226186003a80f4582f31561217c1cc, type: 3}
+    nombre: ambiente_tutorial
+    musica: 1
+    fadein: 1
+    fadeout: 1
+    fade_vel: 1
+    volumen: 0.5
+    volumen_por_defecto: 0.5
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 375d8e72a7a59754fb511bbe288a37aa, type: 3}
+    nombre: luz_item
+    musica: 0
+    fadein: 1
+    fadeout: 1
+    fade_vel: 1
+    volumen: 0.35
+    volumen_por_defecto: 0.35
+    pitch: 0.8
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: e2abf04dbafbafe4792463f599b53231, type: 3}
+    nombre: exit_constant
+    musica: 0
+    fadein: 1
+    fadeout: 1
+    fade_vel: 1
+    volumen: 1
+    volumen_por_defecto: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - clip: {fileID: 0}
+    nombre: blinder_detect
+    musica: 0
+    fadein: 1
+    fadeout: 1
+    fade_vel: 1
+    volumen: 0.05
+    volumen_por_defecto: 0.05
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - clip: {fileID: 0}
+    nombre: blinder_detect
+    musica: 0
+    fadein: 1
+    fadeout: 1
+    fade_vel: 1
+    volumen: 0.05
+    volumen_por_defecto: 0.05
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - clip: {fileID: 0}
+    nombre: blinder_detect
+    musica: 0
+    fadein: 1
+    fadeout: 1
+    fade_vel: 1
+    volumen: 0.05
+    volumen_por_defecto: 0.05
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - clip: {fileID: 0}
+    nombre: blinder_detect
+    musica: 0
+    fadein: 1
+    fadeout: 1
+    fade_vel: 1
+    volumen: 0.05
+    volumen_por_defecto: 0.05
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - clip: {fileID: 0}
+    nombre: blinder_detect
+    musica: 0
+    fadein: 1
+    fadeout: 1
+    fade_vel: 1
+    volumen: 0.05
+    volumen_por_defecto: 0.05
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - clip: {fileID: 0}
+    nombre: blinder_detect
+    musica: 0
+    fadein: 1
+    fadeout: 1
+    fade_vel: 1
+    volumen: 0.05
+    volumen_por_defecto: 0.05
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - clip: {fileID: 0}
+    nombre: blinder_detect
+    musica: 0
+    fadein: 1
+    fadeout: 1
+    fade_vel: 1
+    volumen: 0.05
+    volumen_por_defecto: 0.05
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - clip: {fileID: 0}
+    nombre: blinder_detect
+    musica: 0
+    fadein: 1
+    fadeout: 1
+    fade_vel: 1
+    volumen: 0.05
+    volumen_por_defecto: 0.05
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - clip: {fileID: 0}
+    nombre: blinder_detect
+    musica: 0
+    fadein: 1
+    fadeout: 1
+    fade_vel: 1
+    volumen: 0.05
+    volumen_por_defecto: 0.05
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - clip: {fileID: 0}
+    nombre: blinder_detect
+    musica: 0
+    fadein: 1
+    fadeout: 1
+    fade_vel: 1
+    volumen: 0.05
+    volumen_por_defecto: 0.05
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - clip: {fileID: 0}
+    nombre: blinder_detect
+    musica: 0
+    fadein: 1
+    fadeout: 1
+    fade_vel: 1
+    volumen: 0.05
+    volumen_por_defecto: 0.05
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - clip: {fileID: 0}
+    nombre: blinder_detect
+    musica: 0
+    fadein: 1
+    fadeout: 1
+    fade_vel: 1
+    volumen: 0.05
+    volumen_por_defecto: 0.05
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - clip: {fileID: 0}
+    nombre: blinder_detect
+    musica: 0
+    fadein: 1
+    fadeout: 1
+    fade_vel: 1
+    volumen: 0.05
+    volumen_por_defecto: 0.05
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - clip: {fileID: 0}
+    nombre: blinder_detect
+    musica: 0
+    fadein: 1
+    fadeout: 1
+    fade_vel: 1
+    volumen: 0.05
+    volumen_por_defecto: 0.05
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
